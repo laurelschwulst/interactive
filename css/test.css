@@ -1,0 +1,44 @@
+/* body {
+ background: #f0f0f0;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+#container p {
+  background: yellow;
+}
+
+div#content p a.funky {
+  font-size: 5em;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: lime;
+}
+
+a:active {
+  background: pink;
+}
+
+a:visited {
+  color: black;
+}
+
+p:active {
+  background: cyan;
+} */
+
+body {
+  font-size: 40px;
+}
+
+h1 {
+  background: pink;
+  width: 12em;
+}
