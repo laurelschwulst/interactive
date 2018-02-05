@@ -1,0 +1,129 @@
+/* FRAME */
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: rgb(78, 147, 83);
+	position: relative;
+}
+
+/* STILL LIFE */
+
+.object {
+	position: absolute;
+}
+
+#orange {
+	height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  bottom: 11em;
+  right: 17em;
+  background: orange;
+}
+
+#kiwi {
+	height: 3.75em;
+  width: 5em;
+  border-radius: 50%;
+  background: #513f35;
+  bottom: 9em;
+  right: 13em;
+}
+
+#vase {
+	bottom: 9em;
+	left: 12em;
+	width: 11em;
+	height: 12em;
+}
+
+#vase #top {
+	border-bottom: 6em solid rgb(255,255,255);
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  height: 0;
+  width: 6em;
+}
+
+#vase #middle {
+	width: 12em;
+	height: 1em;
+	background: rgb(240,240,240);
+}
+
+#vase #bottom {
+	border-top: 6em solid rgb(230,230,230);
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  height: 0;
+  width: 6em;
+}
+
+#candle {
+	width: 4em;
+	height: 6em;
+	border: 5px solid rgba(255,255,255,0.2);
+	bottom: 8em;
+  right: 23em;
+	background: rgba(255,255,255,0.2);
+}
+
+#candle #wax {
+	background: #d46969;
+	width: 100%;
+	height: 70%;
+	bottom: 0;
+}
+
+#candle #wax-top {
+	background: #cc4b4b;
+	width: 100%;
+	height: 20%;
+	border-radius: 50%;
+	top: 20%;
+}
+
+#candle #flame {
+	background: yellow;
+	width: 13%;
+	height: 25%;
+	border-radius: 50%;
+	top: 0.25em;
+	left: 44%;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+}
+
+#square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 160px;
+	left: 600px;
+	position: absolute;
+}
