@@ -2,22 +2,41 @@
 
 body {
 	background: black;
-	/* -webkit-animation-duration: 0.25s;
-	-webkit-animation-name: flicker;
+	/* -webkit-animation-duration: 4s;
+	-webkit-animation-name: grow;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
-	-webkit-animation-timing-function: ease-in-out; */
+	-webkit-animation-timing-function: ease-out; */
 }
+
+@-webkit-keyframes grow {
+	from {
+		font-size: 16px;
+	}
+
+	to {
+		font-size: 32px;
+	}
+}
+
 
 .canvas {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: rgb(78, 147, 83);
+	background: white;
 	position: relative;
 }
 
-/* STILL LIFE */
+.canvas.one {
+	background: rgb(78, 147, 83);
+}
+
+.canvas.two {
+	background: #895222;
+}
+
+/* DRAWING ONE */
 
 .object {
 	position: absolute;
@@ -45,7 +64,7 @@ body {
 #kiwi {
 	height: 3.75em;
   width: 5em;
-  border-radius: 50%;
+  border-radius: 42%;
   background: #513f35;
   bottom: 9em;
   right: 13em;
@@ -145,14 +164,12 @@ body {
 		transform: rotate(3deg);
 		opacity: 1;
 		padding-top: .125em;
-		width: 0;
 	}
 
 	to {
 		transform: rotate(-3deg);
 		opacity: .85;
 		padding-top: 0;
-		width: 13%;
 	}
 }
 
@@ -191,4 +208,64 @@ body {
   width: 6em;
   left: -2em;
   transform: rotate(5deg);
+}
+
+/* DRAWING TWO */
+
+#orange-two {
+	height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  bottom: 11em;
+  right: 17em;
+  background: orange;
+}
+
+#lamp {
+	height: 10em;
+	width: 10em;
+	right: 24em;
+	bottom: 13em;
+	/* border: 1px solid red; */
+}
+
+#lamp #light {
+	height: 85%;
+	width: 100%;
+	top: 12.5%;
+	border-radius: 50%;
+	background: rgb(242, 252, 167);
+	box-shadow: 0px 0px 24px rgba(242, 252, 167, 1);
+	-webkit-animation-duration: 3s;
+	-webkit-animation-name: glow-animation;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;
+}
+
+#lamp-base {
+	width: 30%;
+  height: .5em;
+  bottom: 0;
+  background: white;
+  left: calc(50% - 15%);
+}
+
+#box {
+	background: #c37d40cf;
+  width: 8em;
+  height: 8em;
+  top: 9em;
+  transform: skew(-12deg) rotate(-11deg);
+  left: 12em;
+}
+
+@-webkit-keyframes glow-animation {
+	from {
+		box-shadow:0px 0px 20px rgba(242, 252, 167, 0.7);
+	}
+
+	to {
+		box-shadow:0px 0px 60px rgba(242, 252, 167, 1);
+	}
 }
