@@ -2,6 +2,11 @@
 
 body {
 	background: black;
+	/* -webkit-animation-duration: 0.25s;
+	-webkit-animation-name: flicker;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out; */
 }
 
 .canvas {
@@ -76,12 +81,24 @@ body {
 }
 
 #candle {
-	width: 4em;
-	height: 6em;
+	width: 5em;
+	height: 7em;
 	border: 5px solid rgba(255,255,255,0.2);
-	bottom: 8em;
+	bottom: 5em;
   right: 23em;
-	background: rgba(255,255,255,0.2);
+	/* background: rgba(255,255,255,0.2); */
+	border-top: 0;
+	border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+#candle #glass-top {
+	width: 100%;
+	height: 20%;
+	border-radius: 50%;
+	top: -13px;
+	left: -5px;
+	border: 5px solid rgba(255,255,255,0.2);
 }
 
 #candle #wax {
@@ -89,6 +106,8 @@ body {
 	width: 100%;
 	height: 70%;
 	bottom: 0;
+	border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
 }
 
 #candle #wax-top {
@@ -99,6 +118,14 @@ body {
 	top: 20%;
 }
 
+#candle #wick {
+	background: black;
+  width: .2em;
+  height: 20%;
+  top: 0.75em;
+  left: 48%;
+}
+
 #candle #flame {
 	background: yellow;
 	width: 13%;
@@ -106,6 +133,27 @@ body {
 	border-radius: 50%;
 	top: 0.25em;
 	left: 44%;
+	-webkit-animation-duration: 0.33s;
+	-webkit-animation-name: flicker;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes flicker {
+	from {
+		transform: rotate(3deg);
+		opacity: 1;
+		padding-top: .125em;
+		width: 0;
+	}
+
+	to {
+		transform: rotate(-3deg);
+		opacity: .85;
+		padding-top: 0;
+		width: 13%;
+	}
 }
 
 #rose {
