@@ -27,6 +27,16 @@ body {
   background: orange;
 }
 
+#orange #sticker {
+	height: .75em;
+	width: 1.25em;
+	background: blue;
+	border-radius: 50%;
+	border: 3px solid white;
+	right: 2em;
+	bottom: 2em;
+}
+
 #kiwi {
 	height: 3.75em;
   width: 5em;
@@ -98,32 +108,39 @@ body {
 	left: 44%;
 }
 
-#triangle {
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 200px solid yellow;
-	position: absolute;
-	top: 160px;
-	left: 100px;
+#rose {
+	width: 43em;
+  height: 3em;
+  /* background: rgba(255,255,255,0.2); */
+  bottom: 9em;
+  left: 6em;
+  transform: rotate(9deg);
 }
 
-#square {
-	width: 200px;
-	height: 200px;
-	background: red;
-	top: 160px;
-	left: 350px;
-	position: absolute;
+#rose #flower {
+	background: #b12121;
+  left: 1em;
+  height: 100%;
+  border-radius: 36%;
+  width: 3em;
 }
 
-#circle {
-	width: 200px;
-	height: 200px;
-	background: blue;
-	border-radius: 200px;
-	top: 160px;
-	left: 600px;
-	position: absolute;
+#rose #stem {
+	height: 0.65em;
+  width: 45em;
+  background: green;
+  bottom: 30%;
+  left: 2em;
+  transform: rotate(1deg);
+}
+
+#rose #sleeve {
+	bottom: -2em;
+  border-top: 5em solid rgba(255,255,255, 0.2);
+  border-right: 37em solid transparent;
+  border-left: 3em solid transparent;
+  height: 0;
+  width: 6em;
+  left: -2em;
+  transform: rotate(5deg);
 }
