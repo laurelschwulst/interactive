@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+
+html {
+  background: #dbdbdb;
+}
+
+#webring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: #dbdbdb;
+  border-bottom: 1px solid #C1C4C8;
+}
+
+#webring a {
+  position: absolute;
+  height: 100%;
+  width: 33.333%;
+  border-radius: 0;
+}
+
+#webring a.previous {
+  cursor: w-resize;
+  /* background: pink; */
+  left: 0;
+}
+
+#webring a.next {
+  cursor: e-resize;
+  /* background: yellow; */
+  right: 0;
+}
+
+#webring a.home {
+  cursor: n-resize;
+  left: 33.333%;
+  border-left: 1px solid #C1C4C8;
+  border-right: 1px solid #C1C4C8;
+  /* background: url('http://spring2018-yale.veryinteractive.net/assets/images/favicon-16.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: constrain; */
+}
+
+#webring a.home:hover {
+  /* background: url('http://spring2018-yale.veryinteractive.net/assets/images/favicon-16.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: constrain; */
+}
+
+#webring a:hover {
+  background: transparent;
+}
