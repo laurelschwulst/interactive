@@ -1,8 +1,10 @@
 # Interview with Bill Wurtz
 
-This is an imaginary interview. The questions and answers were selected and arranged from Bill Wurtz's [questions page](http://www.billwurtz.com/questions/questions.html) in late 2017 by Laurel Schwulst.
+*This is an imaginary interview. The questions and answers were selected and arranged from Bill Wurtz's [questions page](http://www.billwurtz.com/questions/questions.html) in late 2017 by Laurel Schwulst.*
 
 ***
+
+## Part 1
 
 **What do you think about the internet?**
 
@@ -11,6 +13,8 @@ i think it’s off to a good start
 **What it is that you like the most about being an artist?**
 
 the part where you get to think of something and then make it appear in someone else’s mind
+
+## Part 2
 
 **How did you get out of your rut that presumably lasted 4 years?**
 
@@ -32,13 +36,15 @@ can you help me explain this to people on a regular basis, also be my friend ple
 
 i have learned to never start production on a song until i have written it to the end. i’m not sure if that will help your situation, but it might. then again you might also have that same problem with writing, or also the same problem with producing it even though it has been written. but it is something to think about
 
-**Will you ever [collaborate](http://www.billwurtz.com/reality/201110301627.mp4)collaborate?**
+**Will you ever [collaborate](http://www.billwurtz.com/reality/201110301627.mp4)?**
 
 i tried. it didn’t work. the bad news is, society told me it is wrong and sad to work alone. so i tried again to collaborate. it still didn’t work. i started wondering if maybe i could do this alone. society says “no.” “no one can truly make it alone,” “the best works of art are made in groups,” “a collaborative partner is the answer to life’s problems.” so i searched the streets up and down left and right for collaborative partners. no one even understood what i was doing. no one was interested in going anywhere near the direction i was going. i started to wonder again if it is possible to just work alone. ....... there was no answer. i continued to assume that working alone was the wrong answer for a little while longer. and then one day i decided to try it. surprise, it works
 
 **What is something you wonder?**
 
 i wonder how people find a reasonable workflow when exporting files out of blender. from what i understand, when you export a file, it drops into a certain folder with no prompt for name or location, and automatically overwrites the previous export. so if you are exporting a lot of files, you have to manually open up a window, and change the name to something else, and also there is NO prompt to warn you if you are about to overwrite. so even if you have the guts to go in and open up the window to choose a new freakin name every time, YOU are responsible for keeping track of what names you have used, or else you risk overwriting a file. the way i see it, there are 2 reasonable ways this could work: number append, or prompt and warn. prompt and warn would be like you have to name the file before save it and if you choose a name that has already been chosen it says WAIT hold on you already named something that. number append would be fine also, that’s what cameras do -- it means it never asks you to name your pictures, it just automatically names them with a number after it, 1 number higher each time, so you are never bothered to name your pictures, and never risk overwriting. Now imagine this horrific situation: imagine if your camera names your first picture “picture.” and then you take a second picture and it names that picture “picture” also, and deletes the first picture. UNLESS you open up a window before you take each picture and come up with a name before you take each picture, and oh by the way it is not going to warn you if you are choosing a name you have chosen before. so you are responsible for keeping track of what names you have used, or else you risk wiping out previous pictures. From what i can tell, this is the behavior blender uses when exporting files. now i’m sure blender is fine, and many people use it, and i’m sure there is a reasonable way to work on projects and export files on a regular basis and not risk having them be constantly wiped out if you don’t manually name them something different each time AND keep a manual running record of all the names you used ..... but i don’t know how it would be done. i abandoned that program long ago because of this issue, but it still remains a deep existential conundrum as to how blender users actually would deal with this. that is what i wonder
+
+## Part 3
 
 **I want to make a living off of creating abstract art, dance, poetry, and my own music. Do you think this is feasible? Should I have a back-up plan?**
 
@@ -69,6 +75,8 @@ the world is getting lighter all the time
 **How do you earn money?**
 
 you have to convince someone else to give you theirs
+
+## Part 4
 
 **Where has the fun gone?**
 
