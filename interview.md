@@ -1,8 +1,8 @@
 # Interview with Bill Wurtz
 
-*This is an imaginary interview. The questions and answers were selected and arranged from Bill Wurtz's [questions page](http://www.billwurtz.com/questions/questions.html) in late 2017 by Laurel Schwulst.*
+*Note: This is an imaginary interview. The questions and answers were selected and arranged from Bill Wurtz's [questions page](http://www.billwurtz.com/questions/questions.html) in late 2017 by Laurel Schwulst.*
 
-## Bill Wurtz
+## About
 
 ![Bill Wurtz](https://laurelschwulst.github.io/interactive/images/bill-wurtz.png)
 
@@ -10,7 +10,7 @@
 
 ***
 
-## Interview
+## “Interview”
 
 **What do you think about the internet?**
 
