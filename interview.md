@@ -1,6 +1,6 @@
 # Interview with Bill Wurtz
 
-*Note: This is an imaginary interview. The questions and answers were selected and arranged from Bill Wurtz's [questions page](http://www.billwurtz.com/questions/questions.html) in late 2017 by Laurel Schwulst.*
+*Note: This is an imaginary interview. The questions and answers were selected and arranged from Bill Wurtz's [questions page](http://www.billwurtz.com/questions/questions.html) in 2017 by Laurel Schwulst.*
 
 ## About
 
