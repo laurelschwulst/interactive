@@ -2,6 +2,19 @@
 
 *This is an imaginary interview. The questions and answers were selected and arranged from Bill Wurtz's [questions page](http://www.billwurtz.com/questions/questions.html) in late 2017 by Laurel Schwulst.*
 
+!(https://laurelschwulst.github.io/interactive/images/bill-wurtz.png)
+
+**Bill Wurtz**
+
+It's hard to describe Bill Wurtz despite the abundance of material available on his [website](http://billwurtz.com). Some days, [it’s crazy and it’s raining](https://www.youtube.com/watch?v=Dfyswlszyhg). On others, [the history of the entire world, i guess](https://www.youtube.com/watch?v=xuCn8ux2gbs) can be told in under 20 minutes.
+
+*4 Bill Wurtz [songs](http://www.billwurtz.com/songs.html) from 2017 as found on his website:*
+
+* ["in california"](http://www.billwurtz.com/in-california.mp3)
+* ["i love you"](http://www.billwurtz.com/i-love-you.mp3)
+* ["movie star"](http://www.billwurtz.com/movie-star.mp3)
+* ["got to know what's going on"](http://www.billwurtz.com/got-to-know-whats-going-on.mp3)
+
 ***
 
 ## Part 1
