@@ -5,6 +5,7 @@
 ## About
 
 ![Bill Wurtz](https://laurelschwulst.github.io/interactive/images/bill-wurtz.png)
+*[Link to video](https://www.youtube.com/watch?v=bSDYt9nVpWc)*
 
 **It's hard to describe Bill Wurtz despite the abundance of material available on his [website](http://billwurtz.com). Some days, [it’s crazy and it’s raining](https://www.youtube.com/watch?v=Dfyswlszyhg). On others, [the history of the entire world, i guess](https://www.youtube.com/watch?v=xuCn8ux2gbs) can be told in under 20 minutes.**
 
