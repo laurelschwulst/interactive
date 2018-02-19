@@ -1,0 +1,29 @@
+#column-one {
+  /* background: yellow; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 33.333%;
+}
+#column-two {
+  /* background: lime; */
+  position: fixed;
+  top: 0;
+  left: 33.333%;
+  bottom: 0;
+  width: 33.333%;
+}
+#column-three {
+  /* background: blue; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 33.333%;
+}
+button {
+  position: fixed;
+  bottom: 75px;
+  left: 75px;
+}

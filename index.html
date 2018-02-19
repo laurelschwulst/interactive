@@ -72,8 +72,9 @@
         <li><a href="assignments/weekly-library/index.html">HTML: Laurel's toolbox ⤑</a></li>
         <li><a href="demos/laurels-world/index.html">HTML: Laurel's world ⤑</a></li>
         <li><a href="demos/html-elements.html">HTML: Elements ⤑</a></li>
-        <li><a href="demos/spring-2018-site/index.html">CSS: Layout on Class SIte ⤑</a></li>
-        <li><a href="demos/slot-machine.html">JavaScript & jQuery: Slot Machine ⤑</a></li>
+        <li><a href="demos/spring-2018-site/index.html">CSS: Layout on Class Site ⤑</a></li>
+        <li><a href="demos/slot-machine-class.html">JavaScript & jQuery: Slot Machine (class demo) ⤑</a></li>
+        <li><a href="demos/slot-machine.html">JavaScript & jQuery: Slot Machine (with "win" state) ⤑</a></li>
       </ul>
   </div>
   <!-- CONTAINER: END -->
@@ -90,6 +91,39 @@
   <footer>
   </footer>
   <!-- FOOTER: END -->
+
+  <div id="button">
+    Random
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+
+    $('#button').click(function(){
+      // something happens here when you click the button
+      console.log('you clicked the button');
+
+      // Three variables for RGB, each one has to be a random number 0 -> 255
+      var red = Math.floor(Math.random() * 255);
+      var green = Math.floor(Math.random() * 255);
+      var blue = Math.floor(Math.random() * 255);
+
+      console.log("red: " + red);
+      console.log("green: " + green);
+      console.log("blue: " + blue);
+
+      // Hopefully this outputs something like rgb(0,255,20);
+      var rgb = "rgb(" + red + "," + green + "," + blue + ")";
+
+      $("body").css("background-color", rgb);
+
+    });
+
+  });
+
+  </script>
 
   </body>
 
