@@ -9,28 +9,35 @@ html {
   top: 0;
   left: 0;
   right: 0;
-  height: 20px;
-  background: #dbdbdb;
+  font-size: 11px;
+  letter-spacing: 0.025em;
   border-bottom: 1px solid #C1C4C8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 
 #webring a {
   position: absolute;
-  height: 100%;
   width: 33.333%;
   border-radius: 0;
+  color: rgba(0,0,0,0.9);
+  padding: 0.5em;
+  background: #dbdbdb;
 }
 
 #webring a.previous {
   cursor: w-resize;
   /* background: pink; */
   left: 0;
+  text-align: left;
+  padding-left: 3em;
 }
 
 #webring a.next {
   cursor: e-resize;
   /* background: yellow; */
   right: 0;
+  text-align: right;
+  padding-right: 3em;
 }
 
 #webring a.home {
@@ -38,6 +45,7 @@ html {
   left: 33.333%;
   border-left: 1px solid #C1C4C8;
   border-right: 1px solid #C1C4C8;
+  text-align: center;
   /* background: url('http://spring2018-yale.veryinteractive.net/assets/images/favicon-16.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -52,5 +60,5 @@ html {
 }
 
 #webring a:hover {
-  background: transparent;
+  /* background: transparent; */
 }
