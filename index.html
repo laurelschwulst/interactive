@@ -103,6 +103,10 @@
   $(document).ready(function(){
 
     $('#button').click(function(){
+      randomColor();
+    });
+
+    function randomColor(){
       // something happens here when you click the button
       console.log('you clicked the button');
 
@@ -119,8 +123,9 @@
       var rgb = "rgb(" + red + "," + green + "," + blue + ")";
 
       $("body").css("background-color", rgb);
+    }
 
-    });
+    randomColor();
 
   });
 
