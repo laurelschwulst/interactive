@@ -1,0 +1,66 @@
+#row1 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 25%;
+  }
+
+#row2 {
+    position: fixed;
+    left: 0;
+    top: 25%;
+    right: 0;
+    height: 25%;
+    }
+
+#row3 {
+      position: fixed;
+      left: 0;
+      bottom: 25%;
+      right: 0;
+      height: 25%;
+  }
+
+  #row4 {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 25%;
+    }
+
+  button {
+    position: fixed;
+    margin: 0 auto;
+    border-color: #F5B041;
+    border-style: solid;
+    border-top-width: 25px;
+  border-left-width: 50px;
+  border-right-width: 50px;
+  border-bottom-width: 25px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+
+
+  #win {
+    background: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 88px;
+    padding: 4em;
+    text-align: center;
+    display: none;
+  }
+
+
+div{
+  display: block;
+}

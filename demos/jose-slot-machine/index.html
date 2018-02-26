@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Randomizer</title>
+  <link rel="stylesheet" href="css/slotmachine.css"/>
+
+</head>
+
+  <body>
+
+  <div id="row1"></div>
+  <div id="row2"></div>
+  <div id="row3"></div>
+  <div id="row4"></div>
+
+  <button>again</button>
+
+  <div id="win">
+    You won!
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+
+    var shadows = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg',
+    '20.jpg', '21.jpg', '22.jpg','23.jpg','24.jpg','25.jpg','26.jpg','27.jpg','28.jpg','29.jpg','30.jpg','31.jpg','32.jpg','33.jpg','34.jpg','35.jpg','36.jpg','37.jpg','38.jpg','39.jpg','40.jpg'];
+
+    // 1 through 28 are images
+    // 29 through 40 are colors
+    // for our array subtract 1
+
+    // shadows[0] through shadows[27] are images
+    // shadows[28] through shadows[39] are colors
+
+    function generateRandomShadow(){
+      var one = Math.floor(Math.random() * shadows.length);
+      var two = Math.floor(Math.random() * shadows.length);
+      var three = Math.floor(Math.random() * shadows.length);
+      var four = Math.floor(Math.random() * shadows.length);
+
+      $("#row1").css("background-image", "url(images/" + shadows[one] + ")");
+      $("#row2").css("background-image", "url(images/" + shadows[two] + ")");
+      $("#row3").css("background-image", "url(images/" + shadows[three] + ")");
+      $("#row4").css("background-image", "url(images/" + shadows[four] + ")");
+
+
+      // Win State
+      if ((one >= 28 && two >= 28 && three >= 28 && four >= 28) || (one <= 27 && two <= 27 && three <= 27 && four <= 27 )) {
+        // you won!
+        // To win all shadows[number] needs to be >= 28
+        // OR to win all shadows[number] <= 27
+        // console.log("First variable: " + one);
+        // console.log("Second variable: " + two);
+        // console.log("Third variable: " + three);
+        // console.log("Fourth variable: " + four);
+        console.log("you won!");
+        $('#win').fadeIn(5000);
+        $('#win').fadeOut(5000);
+      }
+      else {
+        console.log("try again");
+      }
+    }
+
+    $('button').click(function(){
+      generateRandomShadow();
+    });
+
+  });
+
+  </script>
+</body>
+</html>

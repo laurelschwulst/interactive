@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>jQuery Examples</title>
+  <meta charset="utf-8" />
+
+  <style>
+
+  body {
+      font-family: "Times New Roman";
+      height: 2000px;
+      margin: 20px;
+  }
+
+  div {
+      width: 200px;
+      height: 200px;
+      display:inline-block;
+      margin-right: 10px;
+  }
+
+  h1 {
+      font-size: 47px;
+      margin-left: 5px;
+      font-weight: normal;
+  }
+
+  .green {
+      background-color: green;
+   }
+
+  .blue {
+      background-color: blue;
+      left: 300px;
+      top: 150px;
+    }
+
+  .red {
+      background-color: red;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      cursor: pointer;
+  }
+  </style>
+
+</head>
+
+<body>
+
+    <h1>jQuery Examples</h1>
+    <div class="green"></div>
+    <div class="blue"></div>
+    <div class="red"></div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script>
+
+    $(function(){
+      $('body').css('background','yellow');
+    });
+
+    // SELECTORS & EFFECTS
+
+    // 1: Add Document ready function
+
+    // 2: Select the green div and fade it out slowly
+
+    // 3: Select the blue div and fade it out slowly,
+    // then wait 5 seconds and fade it back in.
+
+    // EVENTS
+
+    // 1: Create an click event that toggles the blue div
+    // when you click the red div
+
+    // 2: When the user scrolls fade out the red and blue divs
+
+    // CSS
+
+    // 1: When the user clicks the green div add a
+    // background color of orange to the body
+
+    // HTML
+
+    // 1: When the user mouses over the green div
+    // change the title to "FINISHED!"
+
+    </script>
+
+</body>
+
+</html>
