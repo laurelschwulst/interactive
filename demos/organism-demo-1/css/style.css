@@ -1,0 +1,58 @@
+body {
+}
+
+body.night {
+  background: black;
+}
+
+body.night #ground {
+  background: #0e390e;
+}
+
+body.night #organism {
+  background: rgb(20,20,20);
+}
+
+body.night #organism .eye {
+  background: rgb(120, 0 , 0)
+}
+
+#ground {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: green;
+  height: 40vh;
+}
+
+#organism {
+  background: orchid;
+  width: 30vw;
+  height: 30vh;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20vh;
+  left: 30vw;
+  text-align: center;
+  padding: 2em;
+}
+
+#organism .eye {
+  background: black;
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  margin: 1em;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#switch {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background: white;
+  border: 1px solid gray;
+  padding: 1em;
+}
