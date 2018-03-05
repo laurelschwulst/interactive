@@ -142,7 +142,7 @@ header:after {
 
 footer {
   background: white;
-  height: 20vh;
+  min-height: 20vh;
   position: relative;
   margin-top: 20vh;
 }
@@ -173,4 +173,12 @@ footer:after {
   padding: 1em;
   text-align: center;
   cursor: pointer;
+}
+
+#webring-instructions {
+  padding: 1em;
+  top: 4em;
+  right: 2em;
+  width: 700px;
+  z-index: 8;
 }
