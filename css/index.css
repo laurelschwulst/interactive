@@ -145,6 +145,7 @@ footer {
   min-height: 20vh;
   position: relative;
   margin-top: 20vh;
+  padding-bottom: 10vh;
 }
 
 footer:after {
@@ -164,8 +165,6 @@ footer:after {
 
 #button {
   background: yellow;
-  width: 8em;
-  /* height: 8em; */
   border-radius: 50%;
   position: fixed;
   bottom: 1em;
@@ -179,6 +178,20 @@ footer:after {
   padding: 1em;
   top: 4em;
   right: 2em;
-  width: 700px;
+  max-width: 700px;
   z-index: 8;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+
+  .container, header {
+    padding: 0.5em;
+  }
+
+  header {
+    padding-top: 3em;
+  }
+
 }

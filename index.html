@@ -41,10 +41,6 @@
         <li><span>CSS Typeface</span></li>
         <li><span>Local Website</span></li>
       </ol>
-      <h2>Interview</h2>
-      <ul>
-        <li><a href="interview.md">B. Wurtz ⤑</a></li>
-      </ul>
       <h2>Exercises</h2>
       <ul>
         <li>
@@ -70,6 +66,7 @@
             Coding from Life ⤑
           </a>
         </li>
+        <li><a href="interview.md">Interview with B. Wurtz ⤑</a></li>
       </ul>
       <h2>Demos</h2>
       <ul>
@@ -89,7 +86,7 @@
 
   <!-- WEBRING: START -->
   <div id="webring">
-    <a href="https://kangma1992.github.io/interactive/" class="previous">Previous</a>
+    <a href="https://wwwzhang.github.io/interactive/" class="previous">Previous</a>
     <a href="http://spring2018-yale.veryinteractive.net" class="home">Home</a>
     <a href="https://mattwolff.github.io/interactive/" class="next">Next</a>
   </div>
@@ -101,6 +98,9 @@
       <div style="font-size: 2em;">
         To make your webring look like mine...
       </div><br />
+      <u>Step 0</u><br /><br />
+      One nice thing about this webring design is that it works well on mobile. Let's make sure your site has this line of code in the head:<br /><br />
+      <script src="https://gist.github.com/laurelschwulst/305858e102211724066a7d604186029c.js"></script><br />
       <u>Step 1</u><br /><br />
       Add this line of code to the head of your document, right after your own CSS:<br /><br />
       <script src="https://gist.github.com/laurelschwulst/8819aaf108f8c6dfa5686740e06ed096.js"></script><br />
@@ -115,42 +115,11 @@
   <!-- FOOTER: END -->
 
   <div id="button">
-    Random
+    ?
   </div>
 
   <script src="js/jquery.min.js"></script>
-  <script type="text/javascript">
-
-  $(document).ready(function(){
-
-    $('#button').click(function(){
-      randomColor();
-    });
-
-    function randomColor(){
-      // something happens here when you click the button
-      console.log('you clicked the button');
-
-      // Three variables for RGB, each one has to be a random number 0 -> 255
-      var red = Math.floor(Math.random() * 255);
-      var green = Math.floor(Math.random() * 255);
-      var blue = Math.floor(Math.random() * 255);
-
-      console.log("red: " + red);
-      console.log("green: " + green);
-      console.log("blue: " + blue);
-
-      // Hopefully this outputs something like rgb(0,255,20);
-      var rgb = "rgb(" + red + "," + green + "," + blue + ")";
-
-      $("body").css("background-color", rgb);
-    }
-
-    randomColor();
-
-  });
-
-  </script>
+  <script src="js/color.js"></script>
 
   </body>
 
