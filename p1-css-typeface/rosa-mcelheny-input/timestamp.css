@@ -1,0 +1,699 @@
+#letter_input {
+    clear:both;
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    background-color:white;
+    z-index:10000;
+}
+.letter-definition {
+    display: none;
+}
+
+.date {
+	display:inline-block;
+	margin:2px;
+}
+
+.time {
+	display:inline-block;
+	margin:2px;
+}
+
+.letter {
+	height: 277px;
+/*	width: 163px;*/
+    margin-left:10px;
+/*    margin-right:2px;*/
+	display:inline-block;
+/*	border:2px red dotted;*/
+	position:relative;
+}
+
+.space {
+    width:163px;
+}
+
+.lefttop {
+	position:absolute;
+	transform:rotate(90deg);
+	top: 59px;
+    left: -59px;
+}
+
+.leftbottom {
+	position:absolute;
+	transform:rotate(90deg);
+	top: 200px;
+    left: -59px;
+}
+
+.righttop {
+	position:absolute;
+	transform:rotate(90deg);
+	top: 59px;
+    right: -59px;
+}
+
+.rightbottom {
+	position:absolute;
+	transform:rotate(90deg);
+	top: 200px;
+    right: -59px;
+}
+
+.top {
+	position:absolute;
+	top: 0px;
+    left: 15px;
+}
+
+.bottom {
+	position:absolute;
+	bottom: -6px;
+    left: 15px;
+}
+
+.bottomalt {
+	position:absolute;
+	bottom: -6px;
+    left: 54px;
+}
+
+.bottomalt2 {
+	position:absolute;
+    bottom: 25px;
+    right: -6px;
+    transform: rotate(-69deg);
+}
+
+.center {
+	position:absolute;
+	top: 90px;
+    left: 15px;
+}
+
+.leftbottom2 {
+    position: absolute;
+    bottom: 23px;
+    left: -9px;
+    transform: rotate(60deg);
+}
+
+.rightalt {
+	position: absolute;
+    transform: rotate(90deg);
+    top: 163px;
+    right: -14px;
+}
+
+.rightj {
+	position: absolute;
+    transform: rotate(90deg);
+    top: 122px;
+    right: -47px;
+}
+
+.rightj2 {
+	position: absolute;
+    transform: rotate(90deg);
+    top: 22px;
+    right: -8px;
+}
+
+/*A*/
+
+.a {
+    width: 163px;
+}
+
+.lefttopa {
+	position:absolute;
+	transform:rotate(-75deg);
+	top: 59px;
+    left: -10px;
+}
+
+.leftbottoma {
+	position:absolute;
+	transform:rotate(-75deg);
+	top: 200px;
+    left: -48px;
+}
+
+.righttopa {
+	position:absolute;
+	transform:rotate(75deg);
+	top: 59px;
+    right: -10px;
+}
+
+.rightbottoma {
+	position:absolute;
+	transform:rotate(75deg);
+	top: 200px;
+    right: -48px;
+}
+
+.centera {
+	position: absolute;
+    top: 108px;
+    left: 53px;
+}
+
+/*B*/
+
+.b {
+        width: 163px;
+}
+
+.topb {
+	position:absolute;
+	top:0;
+	left:15px;
+}
+.topb2 {
+    position: absolute;
+    top: 26px;
+    left: 77px;
+    transform: rotate(61deg);
+}
+.topb3 {
+    position: absolute;
+    top: 69px;
+    left: 70px;
+    transform: rotate(133deg);
+}
+.bottomb {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 174px;
+    right: -16px;
+}
+
+.centerb {
+    position: absolute;
+transform: rotate(40deg);
+    top: 113px;
+    right: 16px;
+}
+
+.b .bottomalt2 {
+	    bottom: 19px;
+    right: 8px;
+    transform: rotate(-49deg);
+}
+
+/*C*/
+
+.c {
+        width: 163px;
+}
+
+.c .topb {
+	left: 43px;
+}
+
+.bottom2c {
+    position: absolute;
+    bottom: 33px;
+    left: 70px;
+    transform: rotate(-76deg);
+}
+
+.c .topb2 {
+	    left: 100px;
+}
+
+.c .lefttop {
+    top: 132px;
+}
+
+/*D*/
+
+.d {
+	width:126px;
+}
+
+.rightd {
+	position: absolute;
+    transform: rotate(90deg);
+    top: 134px;
+    right: -57px;
+}
+
+.d .topb2 {
+	position: absolute;
+    top: 37px;
+    left: 72px;
+    transform: rotate(69deg);
+}
+
+.d .bottom2c {
+	bottom: 26px;
+    left: 72px;
+    transform: rotate(-65deg);
+}
+
+.e {
+    width:154px;
+}
+
+.f {
+     width: 163px;
+}
+
+/*G*/
+
+.g {
+    width: 163px;
+}
+
+.g .rightd {
+	top: 127px;
+    right: 21px;
+    transform: rotate(0deg);
+}
+
+.g .topb {
+	    left: 45px;
+}
+
+.g .topb2 {
+    top: 28px;
+    left: 105px;
+    transform: rotate(64deg);
+}
+
+.g .bottom2c {
+    bottom: 61px;
+    right: -60px;
+    transform: rotate(90deg);
+}
+
+.gtop {
+    position: absolute;
+    top: 28px;
+    left: -12px;
+    transform: rotate(118deg);
+}
+
+.g .lefttop {
+	    top: 97px;
+    left: -21px;
+}
+
+.g .leftbottom {
+	    top: 167px;
+    left: -29px;
+}
+
+.h {
+    width: 163px;
+}
+
+/*i*/
+
+.i {
+    width: 73px;
+}
+
+.itop {
+	position:absolute;
+top: -2px;
+    left: -2px;
+}
+
+.ibottom {
+    position: absolute;
+    bottom: -6px;
+    left: 5px;
+}
+
+.i .lefttop {
+left: -108px;
+    top: 138px;
+    width: 290px;
+}
+
+.i .leftbottom {
+	left:-40px;
+}
+
+/*j*/
+
+.j {
+    width: 163px;
+}
+
+.j .topb {
+	left: 43px;
+}
+
+.j .topb2 {
+	    left: 100px;
+}
+
+.j .lefttop {
+    top: 132px;
+}
+
+/*k*/
+
+.k {
+	    width: 175px;
+}
+
+.ktop {
+	position:absolute;
+    transform: rotate(-40deg);
+    left: -1px;
+    top: 51px;
+}
+
+.kbottom {
+	position:absolute;
+    left: -25px;
+    top: 170px;
+    transform: rotate(51deg);
+}
+
+.l {
+    width: 163px;
+}
+
+.mleft {
+	position:absolute;
+	top: 137px;
+    left: -92px;
+    width: 300px;
+    transform: rotate(76deg);
+}
+
+.mright {
+	position:absolute;
+    top: 117px;
+    left: -20px;
+    width: 300px;
+    transform: rotate(-76deg);
+}
+
+.mrightside {
+	position:absolute;
+    top: 142px;
+    left: 21px;
+    width: 300px;
+    transform: rotate(90deg);
+}
+
+.m {
+	width:130px;
+    margin-right:50px;
+}
+
+.n {
+	width:110px;
+}
+.n .mrightside {
+	left:-51px;
+}
+
+.o {
+    width: 163px;
+}
+
+.o .topb {
+	left: 43px;
+}
+.o .topb2 {
+	    left: 104px;
+}
+.o .bottomalt2 {
+	bottom: 29px;
+    right: -8px;
+    transform: rotate(-65deg);
+}
+
+.o .lefttop {
+    top: 132px;
+}
+
+.o .rightj {
+	right:-53px;
+}
+
+.p {
+     width: 131px;
+}
+
+.q {
+    width: 163px;
+}
+
+.q .topb {
+	left: 43px;
+}
+.q .topb2 {
+	    left: 104px;
+}
+.q .bottomalt2 {
+	bottom: 29px;
+    right: -8px;
+    transform: rotate(-65deg);
+}
+
+.q .lefttop {
+    top: 132px;
+}
+
+.q .rightj {
+	right:-53px;
+}
+
+.qtail {
+	position:absolute;
+    bottom: 44px;
+    right: -30px;
+    transform: rotate(-126deg);
+}
+
+.r {
+    width: 128px;
+}
+
+.r .kbottom {
+	left: -37px;
+    top: 175px;
+    transform: rotate(64deg);
+    width: 199px;
+}
+
+.s {
+     width: 163px;
+}
+
+.s .topb {
+	left: 43px;
+}
+.s .topb2 {
+	    left: 104px;
+}
+.s .bottomalt2 {
+	bottom: 29px;
+    right: -8px;
+    transform: rotate(-65deg);
+}
+
+.s .lefttop {
+    top: 132px;
+}
+
+.s .rightj {
+	right:-53px;
+}
+
+.diag {
+	position: absolute;
+    width: 300px;
+    bottom: 160px;
+    right: -30px;
+    transform: rotate(-140deg);
+}
+
+.t {
+     width: 136px;
+}
+
+.tupright{
+	position:absolute;
+	transform:rotate(90deg);
+left: -86px;
+    top: 145px;
+    width: 300px;
+}
+.ttop {
+	position:absolute;
+	top: -2px;
+left: -2px;
+    width:300px;
+}
+
+.u {
+    width: 163px;
+}
+
+.rightu {
+	position:absolute;
+	transform: rotate(90deg);
+    top: 94px;
+    right: -79px;
+}
+
+.leftu {
+	position:absolute;
+	transform: rotate(90deg);
+    top: 94px;
+    left: -87px;
+}
+
+.v {
+        width: 163px;
+}
+
+
+.w {
+	width:307px;
+}
+
+.wleft {
+	position:absolute;
+	top: 137px;
+    left: 47px;
+    width: 300px;
+    transform: rotate(76deg);
+}
+
+.wright {
+	position:absolute;
+    top: 117px;
+    left: 119px;
+    width: 300px;
+    transform: rotate(-76deg);
+}
+
+.x {
+    width:223px;
+}
+
+.xleft {
+	position:absolute;
+    top: 137px;
+    left: -22px;
+    width: 370px;
+    transform: rotate(49deg)
+}
+
+.xright {
+	position:absolute;
+    top: 117px;
+    left: -22px;
+    width: 370px;
+    transform: rotate(-49deg);
+}
+
+.y {
+    width: 131px;
+}
+
+.topy {
+    position:absolute;
+    top: 60px;
+     left: -22px;
+    transform: rotate(49deg);
+}
+
+.y .mright {
+    left: -56px;
+    top: 119px;
+}
+
+
+.z {
+    width: 163px;
+}
+
+.topz {
+    position:absolute;
+    top:0px;
+    left: -22px;
+    left: 41px;
+    width: 200px;
+}
+
+.bottomz {
+    position:absolute;
+    bottom:0px;
+    left: 41px;
+    width:200px;
+}
+
+.z .mright {
+    top: 117px;
+    left: -34px;
+    width: 300px;
+    transform: rotate(-64deg);
+}
+
+.period {
+    width:57px;
+}
+
+.dot {
+    position:absolute;
+    bottom:0;
+    left:0px;
+}
+
+.comma {
+    width:57px;
+}
+
+.comma .dot {
+    bottom: -19px;
+    transform: rotate(-65deg);
+}
+
+.exclam {
+    width:57px;
+}
+
+.exclam .lefttop {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 139px;
+    left: -121px;
+    width: 300px;
+}
+
+.dota {
+    position: absolute;
+    left: -2px;
+    transform: rotate(-52deg);
+    bottom: 15px;
+}
+
+.dotb {
+    position: absolute;
+    left: -9px;
+    transform: rotate(35deg);
+    bottom: 16px;
+}
+
+.hyphen {
+    width:138px;
+}
+
+.hyphen .center {
+    left:0px;
+    top: 160px;
+}
