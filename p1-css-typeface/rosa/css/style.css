@@ -1,0 +1,33 @@
+.letter {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.filled {
+  background: black;
+}
+
+.special {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.special .filled {
+  background: url('../images/chipmunk.png');
+  background-size: 20px 20px;
+  transition: all 0.2s ease-in;
+}
+
+.special:hover .filled {
+  background: url('../images/chipmunk2.png');
+  background-size: 20px 20px;
+}
