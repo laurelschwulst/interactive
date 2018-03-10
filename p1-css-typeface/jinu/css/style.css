@@ -1,0 +1,35 @@
+.letter {
+  display: inline-block;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.circle {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.filled {
+  background: black;
+}
+
+.large .circle {
+}
+
+.medium .circle {
+  margin-right: -0.5vw;
+}
+
+.medium .row {
+  margin-bottom: -0.5vw;
+}
+
+.small .circle {
+  margin-right: -1vw;
+}
+
+.small .row {
+  margin-bottom: -1vw;
+}
