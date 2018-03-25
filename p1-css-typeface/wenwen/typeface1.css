@@ -1,0 +1,30 @@
+.letter {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.box {
+  width: 45px;
+  height: 45px;
+  margin: -12px;
+  display: inline-block;
+}
+
+.filled {
+  background: black;
+}
+
+.zi {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.zi .filled {
+  background: url('zi.png');
+  background-size: 45px 45px;
+}
+
+.clearer {
+  display: block;
+}
