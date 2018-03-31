@@ -1,0 +1,27 @@
+body {
+  background: #f0f8ff;
+}
+
+.letter-definition {
+  display: none;
+}
+
+.letter {
+  width: 5%;
+  height: 10%;
+  display: inline-block;
+  position: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 3em;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+.filled {
+  background: url("line.jpg") no-repeat center;
+}
